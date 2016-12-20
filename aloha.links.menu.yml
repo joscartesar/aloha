@@ -4,3 +4,10 @@ aloha.greetingslink:
   parent: tools
   route_name: aloha.greetings
   weight: 7
+
+aloha.greetingssettings:
+  title: Greetings Settings
+  parent: system.admin_config_development
+  description: 'Configure greetings.'
+  route_name: aloha.greetings_settings
+  weight: 100

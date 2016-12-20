@@ -5,3 +5,11 @@ aloha.greetings:
     _title: 'Aloha!'
   requirements:
     _permission: 'access content'
+
+aloha.greetings_settings:
+  path: '/admin/config/aloha'
+  defaults:
+    _form: 'Drupal\aloha\Form\GreetingsSettingsForm'
+    _title: 'Greetings configuration'
+  requirements:
+    _permission: 'administer site configuration'
