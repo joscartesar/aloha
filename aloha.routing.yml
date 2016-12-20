@@ -1,0 +1,7 @@
+aloha.greetings:
+  path: '/aloha'
+  defaults:
+    _controller: 'Drupal\aloha\Controller\AlohaController::content'
+    _title: 'Aloha!'
+  requirements:
+    _permission: 'access content'
