@@ -1,0 +1,6 @@
+name: Drupal 8 Playground
+description: A dummy modulo to show the basics of Drupal 8 module development
+package: Workshops
+type: module
+version: 1.0
+core: 8.x
