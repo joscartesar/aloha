@@ -1,0 +1,6 @@
+aloha.greetingslink:
+  title: 'Say hello and enter'
+  description: 'Golden rule for the Stand Up meeting'
+  parent: tools
+  route_name: aloha.greetings
+  weight: 7
